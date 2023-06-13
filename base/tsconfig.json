@@ -17,7 +17,7 @@
     "declarationMap": true,
     "strict": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
+    // "suppressImplicitAnyIndexErrors": true,
     "noErrorTruncation": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,

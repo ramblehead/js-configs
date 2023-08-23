@@ -1,5 +1,5 @@
 {
-  "name": "@rh/js-configs",
+  "name": "@ramblehead/js-configs",
   "version": "0.0.2",
   "description": "ramblehead's JavaScript/Typescript configs",
   "scripts": {
@@ -27,7 +27,7 @@
     "eslint-config-next": "*"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "access": "public"
   },
   "repository": {
     "type": "git",

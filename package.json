@@ -1,5 +1,5 @@
 {
-  "name": "@rh-ogorod/js-configs",
+  "name": "@rh/js-configs",
   "version": "0.0.2",
   "description": "ramblehead's JavaScript/Typescript configs",
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rh-ogorod/js-configs.git"
+    "url": "https://github.com/ramblehead/js-configs.git"
   }
 }

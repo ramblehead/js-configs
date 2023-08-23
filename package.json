@@ -1,12 +1,18 @@
 {
   "name": "@rh-ogorod/js-configs",
   "version": "0.0.2",
-  "description": "",
+  "description": "ramblehead's JavaScript/Typescript configs",
   "scripts": {
     "manual-lint": "eslint --ext .js,.cjs,.ts . && echo '' && tsc"
   },
-  "keywords": [],
-  "author": "Victor Rybynok",
+  "keywords": [
+    "ramblehead",
+    "rh",
+    "javascript",
+    "typescript",
+    "config"
+  ],
+  "author": "ramblehead",
   "license": "GPL-3.0",
   "eslintConfig": {
     "extends": "./base/eslint.config.cjs"
@@ -21,7 +27,7 @@
     "eslint-config-next": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",

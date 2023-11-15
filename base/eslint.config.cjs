@@ -29,30 +29,6 @@ module.exports = {
     // Let tide (or tsc) and js2-mode handle undefined variables
     'no-undef': 'off',
 
-    // Use @typescript-eslint/indent insted
-    indent: 'off',
-
-    // Use @typescript-eslint/brace-style insted
-    'brace-style': 'off',
-
-    // Use @typescript-eslint/no-empty-function insted
-    'no-empty-function': 'off',
-
-    // Use @typescript-eslint/no-unused-vars insted
-    'no-unused-vars': 'off',
-
-    // Use @typescript-eslint/no-use-before-define insted
-    'no-use-before-define': 'off',
-
-    // Use @typescript-eslint/no-shadow insted
-    'no-shadow': 'off',
-
-    // Use @typescript-eslint/no-useless-constructor insted
-    'no-useless-constructor': 'off',
-
-    // Use @typescript-eslint/no-redeclare insted
-    'no-redeclare': 'off',
-
     'generator-star-spacing': ['error', 'before'],
 
     'max-len': [
@@ -175,6 +151,7 @@ module.exports = {
     // /b/; @typescript-eslint
     // /b/{
 
+    indent: 'off',
     '@typescript-eslint/indent': [
       'warn',
       2,
@@ -192,8 +169,10 @@ module.exports = {
       },
     ],
 
+    'brace-style': 'off',
     '@typescript-eslint/brace-style': ['error'],
 
+    'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
       {
@@ -201,6 +180,7 @@ module.exports = {
       },
     ],
 
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
@@ -209,11 +189,14 @@ module.exports = {
       },
     ],
 
+    'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
 
-    '@typescript-eslint/no-shadow': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
 
-    '@typescript-eslint/no-useless-constructor': 'error',
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': ['error'],
 
     '@typescript-eslint/explicit-function-return-type': ['error'],
 
@@ -232,9 +215,13 @@ module.exports = {
       },
     ],
 
+    'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': ['error'],
 
     '@typescript-eslint/consistent-type-imports': ['error'],
+
+    // 'dot-notation': 'off',
+    // '@typescript-eslint/dot-notation': ['error'],
 
     // /b/}
   },

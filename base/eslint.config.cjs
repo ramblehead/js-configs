@@ -19,7 +19,7 @@ module.exports = {
   ],
   plugins: ['import'],
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2024,
     sourceType: 'module',
   },
   rules: {
@@ -222,6 +222,13 @@ module.exports = {
 
     // 'dot-notation': 'off',
     // '@typescript-eslint/dot-notation': ['error'],
+
+    'no-spaced-func': 'off',
+    '@typescript-eslint/func-call-spacing': ['error'],
+
+    // see https://typescript-eslint.io/rules/func-call-spacing/
+    // and https://eslint.style/packages/js
+    'func-call-spacing': 'off',
 
     // /b/}
   },

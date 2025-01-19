@@ -38,6 +38,20 @@ module.exports = {
       },
     ],
 
+    'react/require-default-props': [
+      'error',
+      {
+        forbidDefaultForRequired: true,
+        classes: 'defaultProps',
+        functions: 'defaultArguments',
+      },
+    ],
+
+    'react/jsx-wrap-multilines': [
+      'error',
+      { declaration: false, assignment: false },
+    ],
+
     // /b/}
   },
 };

@@ -5,7 +5,7 @@
     "target": "es5", // from next.js 13 defaults
     // See https://github.com/microsoft/TypeScript/issues/35822
     // for disabled declarations
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     // "moduleResolution": "node16",
     // "moduleResolution": "bundler", // from next.js 13 defaults
     // "traceResolution": true,

@@ -2,7 +2,8 @@
   "extends": "../react/tsconfig.json",
   "compilerOptions": {
     // "target": "esnext",
-    "target": "es5", // from next.js 13 defaults
+    // "target": "es5", // from next.js 13 defaults
+    "target": "es2015",
     // See https://github.com/microsoft/TypeScript/issues/35822
     // for disabled declarations
     // "moduleResolution": "node",
